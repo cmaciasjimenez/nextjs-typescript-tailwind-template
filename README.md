@@ -45,23 +45,19 @@ Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Installed packages explanation
 
-eslint-config-next -> Default Nextjs ESLint config from Next.js
-eslint-config-prettier -> Disable ESLint rules that exist on prettier
-eslint-plugin-simple-import-sort -> ESLint plugin for sorting imports and exports
-prettier -> Code formatting. All the default rules are present and some changed
-prettier-plugin-tailwindcss -> Sort Tailwind classes automatically
-eslint-plugin-simple-import-sort -> Automatically sort file imports
-tailwind-merge and clsx -> Fix issues with classNames props
+- `eslint-config-next` - Default Nextjs ESLint config from Next.js
+- `eslint-config-prettier` - Disable ESLint rules that exist on prettier
+- `eslint-plugin-simple-import-sort` - ESLint plugin for sorting imports and exports
+- `prettier` - Code formatting. All the default rules are present and some changed
+- `prettier-plugin-tailwindcss` - Sort Tailwind classes automatically
+- `eslint-plugin-simple-import-sort` - Automatically sort file imports
+- `tailwind-merge and clsx` - Fix issues with classNames props
 
 ## Learn More
 
@@ -73,7 +69,6 @@ To learn more about the used stack:
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs/installation) - learn about Tailwind CSS
 - [ESLint Documentation](https://eslint.org/docs/head/) - learn about ESLint, its configuration and rules
 - [Prettier Official Site](https://prettier.io/) - learn about Prettier and its opinionated code formatting rules
-- []() - learn about Tailwind CSS
 
 ## Get in contact
 

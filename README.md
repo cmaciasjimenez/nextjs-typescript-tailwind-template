@@ -1,8 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a starter [Next.js](https://nextjs.org/) template project.
+
+- Next.js
+- React
+- Tailwind CSS
+- Typescript
+- ESLint (code quality) + Prettier (code formatting)
+
+## Philosophy
+
+This is an opinionated template that jump starts a project with all you need. Next.js with React and Typescript for JavaScript. Tailwind for styling already with an utility for fixing className props. There are also a handful of ESLint rules turned on (some recommended by ESLint, some recommended by Typescript ESLint and some selected by me for import sorting, code style I prefer and so on).
 
 ## Getting Started
 
-First, run the development server:
+Install the packages
+
+```bash
+npm install
+
+```
+
+Open the project in VScode and install the required extensions
+
+- ESLint
+- Prettier - Code formatter
+- Tailwind CSS IntelliSense
+
+To help with faster development, some other extensions are recommended
+
+- ES7+React/Redux/React-Native snippets
+- Turbo Console Log
+
+Some VScode settings that should be enabled
+
+```
+"css.lint.unknownAtRules": "ignore",
+"editor.defaultFormatter": "esbenp.prettier-vscode",
+"editor.codeActionsOnSave": {
+    "source.fixAll": true
+},
+"editor.formatOnSave": true,
+```
+
+Run the development server:
 
 ```bash
 npm run dev
@@ -14,21 +53,28 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Installed packages explanation
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+eslint-config-next -> Default Nextjs ESLint config from Next.js
+eslint-config-prettier -> Disable ESLint rules that exist on prettier
+eslint-plugin-simple-import-sort -> ESLint plugin for sorting imports and exports
+prettier -> Code formatting. All the default rules are present and some changed
+prettier-plugin-tailwindcss -> Sort Tailwind classes automatically
+eslint-plugin-simple-import-sort -> Automatically sort file imports
+tailwind-merge and clsx -> Fix issues with classNames props
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To learn more about the used stack:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [React Official Site](https://react.dev/) - learn about React
+- [Typescript Documentation](https://www.typescriptlang.org/) - learn about Typescript
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs/installation) - learn about Tailwind CSS
+- [ESLint Documentation](https://eslint.org/docs/head/) - learn about ESLint, its configuration and rules
+- [Prettier Official Site](https://prettier.io/) - learn about Prettier and its opinionated code formatting rules
+- []() - learn about Tailwind CSS
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Get in contact
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+All feedback is appreciated. Please contact me for any opinion, suggestion or discussions about this repo. You are welcome to fork, PR or use this repo for your convenience.

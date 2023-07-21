@@ -1,14 +1,14 @@
 This is a starter [Next.js](https://nextjs.org/) template project.
 
-- Next.js
-- React
-- Tailwind CSS
-- Typescript
-- ESLint (code quality) + Prettier (code formatting)
+- 🚀 Next.js
+- 📦 React
+- 🎨 Tailwind CSS
+- 🏎️ Typescript
+- ✨ ESLint (code quality) + Prettier (code formatting)
 
-## Philosophy
+## Summary
 
-This is an opinionated template that jump starts a project with all you need. Next.js with React and Typescript for JavaScript. Tailwind for styling already with an utility for fixing className props. There are also a handful of ESLint rules turned on (some recommended by ESLint, some recommended by Typescript ESLint and some selected by me for import sorting, code style I prefer and so on).
+This is an **opinionated** template that jump starts a project with all you need. Next.js with React and Typescript for JavaScript. Tailwind for styling already with an utility for fixing className props. There are also a handful of ESLint rules turned on (some recommended by ESLint, some recommended by Typescript ESLint and some selected by me for import sorting, code style I prefer and so on).
 
 ## Getting Started
 
@@ -16,21 +16,23 @@ Install the packages
 
 ```bash
 npm install
-
 ```
 
-Open the project in VScode and install the required extensions
+Open the project in VScode and install the **required extensions**
 
 - ESLint
 - Prettier - Code formatter
 - Tailwind CSS IntelliSense
 
-To help with faster development, some other extensions are recommended
+To help with faster development, some other extensions are **recommended**
 
 - ES7+React/Redux/React-Native snippets
+- Code Spell Checker
+- DotENV
 - Turbo Console Log
+- Import Cost
 
-Some VScode settings that should be enabled
+Some **VScode settings** that should be enabled
 
 ```
 "css.lint.unknownAtRules": "ignore",
@@ -70,6 +72,6 @@ To learn more about the used stack:
 - [ESLint Documentation](https://eslint.org/docs/head/) - learn about ESLint, its configuration and rules
 - [Prettier Official Site](https://prettier.io/) - learn about Prettier and its opinionated code formatting rules
 
-## Get in contact
+## Contributing
 
 All feedback is appreciated. Please contact me for any opinion, suggestion or discussions about this repo. You are welcome to fork, PR or use this repo for your convenience.
